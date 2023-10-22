@@ -1,7 +1,7 @@
 import random
 import time as t
 import cv2
-
+IMAGEDISPLAY = 3000
 
 def openfile():
     directory = []
@@ -25,6 +25,26 @@ def main():
 
     difficulty = int(input("Please enter your level: "))
     start(difficulty)
+
+def guess(name,pullname):
+    print("Here are your option")
+    position = random.randint(1,5)
+    
+    pullname = str(pullname)
+    pullname = pullname.replace("_"," ")
+    for x in range(1,6):
+        if x != position:
+            randomname = str(name[random.randint(0,len(name))])
+            randomname = randomname.replace("_"," ")
+            print("Enter '"+str(x)+"' for: " + str(randomname))
+        else: 
+            print(("Enter '"+str(x)+"' for: " + str(pullname)))
+    answer = int(input("Please type your answer here: "))
+    if answer == position:
+        print("Yayyy you are right")
+    else:
+        print("You are wrong :(. Go home and watch more anime")
+
     
 def start(dif):
     direct, name = openfile()
@@ -34,10 +54,9 @@ def start(dif):
         img = cv2.imread(direct[choosen-1])
         cv2.imshow("image",img)
         pullname = name[choosen-1]
-        printname = pullname.replace("_", " ")
-        print(printname)
-        cv2.waitKey(0)
+        cv2.waitKey(IMAGEDISPLAY)
         cv2.destroyAllWindows()
+        guess(name,pullname)
     elif dif == 2:
         img = cv2.imread(direct[choosen-1])
         height, width, channel = img.shape
@@ -48,10 +67,9 @@ def start(dif):
         croppedimage = img[rheight:(rheight+height//2), rwidth:(rwidth+height//2)]
         cv2.imshow("image", croppedimage)
         pullname = name[choosen-1]
-        printname = pullname.replace("_", " ")
-        print(printname)
-        cv2.waitKey(0)
+        cv2.waitKey(IMAGEDISPLAY)
         cv2.destroyAllWindows()
+        guess(name,pullname)
     elif dif == 3:
         img = cv2.imread(direct[choosen-1])
         height, width, channel = img.shape
@@ -62,10 +80,9 @@ def start(dif):
         croppedimage = img[rheight:(rheight+height//4), rwidth:(rwidth+height//4)]
         cv2.imshow("image", croppedimage)
         pullname = name[choosen-1]
-        printname = pullname.replace("_", " ")
-        print(printname)
-        cv2.waitKey(0)
+        cv2.waitKey(IMAGEDISPLAY)
         cv2.destroyAllWindows()
+        guess(name,pullname)
     else:
         print("data input is invalid so you will play the hardest dif :)")
         start(3)
