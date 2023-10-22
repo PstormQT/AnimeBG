@@ -1,0 +1,10 @@
+.gameredirect{
+    background-color: #3f5443;
+    border:black, 1px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px 30px;
+}
