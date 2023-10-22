@@ -44,6 +44,8 @@ def guess(name,pullname):
         print("Yayyy you are right")
     else:
         print("You are wrong :(. Go home and watch more anime")
+        print("The answer is: " + str(pullname))
+        
 
     
 def start(dif):

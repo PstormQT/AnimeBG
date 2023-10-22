@@ -1,10 +1,36 @@
 .gameredirect{
+    position:absolute;
     background-color: #3f5443;
-    border:black, 1px;
+    border:black, 1px, solid;
     text-align: center;
     text-decoration: none;
     color: white;
     display: inline-block;
-    font-size: 20px;
+    font-size: 30px;
     padding: 30px 30px;
+    margin:4px 2px;
+    cursor: pointer;
+    margin:auto;
+    width: 25%;
+    transform:translate(50%,0);
+    align-items: center;
+}
+
+.option{
+    background-color: #41314a;
+    border: black, 1px;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15;
+    padding: 20px 20px
+}
+
+.ntext{
+    margin:auto;
+    width: 50%;
+    color: black;
+    font-size:30;
+    text-align: center;
+    display: inline-block;
 }
