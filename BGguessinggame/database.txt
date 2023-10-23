@@ -66,3 +66,17 @@ image\\datealive\\datealive19.webp Date_A_Live_Light_Novel_Volume_19
 image\\datealive\\datealive20.webp Date_A_Live_Light_Novel_Volume_20
 image\\datealive\\datealive21.webp Date_A_Live_Light_Novel_Volume_21
 image\\datealive\\datealive22.webp Date_A_Live_Light_Novel_Volume_22
+
+image\\Bunnygirlsenpai\\bunnygirlsenpai1.webp Rascle_does_not_dream_of_bunny_girl_senpai
+image\\Bunnygirlsenpai\\bunnygirlsenpai2.webp Rascle_does_not_dream_of_Petite_devil_hokai
+image\\Bunnygirlsenpai\\bunnygirlsenpai3.webp Rascle_does_not_dream_of_logical_witch
+image\\Bunnygirlsenpai\\bunnygirlsenpai4.webp Rascle_does_not_dream_of_siscon_idol
+image\\Bunnygirlsenpai\\bunnygirlsenpai5.webp Rascle_does_not_dream_of_a_sister_home_alone
+image\\Bunnygirlsenpai\\bunnygirlsenpai6.webp Rascle_does_not_dream_of_a_dreaming_girl
+image\\Bunnygirlsenpai\\bunnygirlsenpai7.webp Rascle_does_not_dream_of_his_first_love
+image\\Bunnygirlsenpai\\bunnygirlsenpai8.webp Rascle_does_not_dream_of_a_sister_venturing_out
+image\\Bunnygirlsenpai\\bunnygirlsenpai9.webp Rascle_does_not_dream_of_a_knapsack_kid
+image\\Bunnygirlsenpai\\bunnygirlsenpai10.webp Rascle_does_not_dream_of_a_lost_singer
+image\\Bunnygirlsenpai\\bunnygirlsenpai11.webp Rascle_does_not_dream_of_a_Nightgale
+image\\Bunnygirlsenpai\\bunnygirlsenpai12.webp Rascle_does_not_dream_of_his_student
+image\\Bunnygirlsenpai\\bunnygirlsenpai13.webp Rascle_does_not_dream_of_Santa_claus

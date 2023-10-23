@@ -1,7 +1,7 @@
 import random
 import time as t
 import cv2
-IMAGEDISPLAY = 1000
+IMAGEDISPLAY = 5000
 
 def openfile():
     directory = []
