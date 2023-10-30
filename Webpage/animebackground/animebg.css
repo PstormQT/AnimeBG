@@ -1,0 +1,17 @@
+.choosinganswer{
+    background-color: #512942;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 30px 30px;
+
+    cursor: pointer;
+
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateY(-50%);
+    transform: translateX(50%);
+    /* align-items: center; */
+}
