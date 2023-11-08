@@ -1,5 +1,4 @@
 import random
-import time as t
 import cv2
 from dataclasses import dataclass
 IMAGEDISPLAY = 5000
