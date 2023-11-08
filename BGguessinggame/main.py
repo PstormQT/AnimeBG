@@ -5,14 +5,13 @@ from dataclasses import dataclass
 IMAGEDISPLAY = 5000
 
 def main():
-    print("Welcome to anime guessing game")
-    print("Please choose your difficulty:")
-    print("Enter '1' for easy, 100x100% of the original image")
-    print("Enter '2' for normal, 50x50% of the original image")
-    print("Enter '3' for hard, 33x33% of the original image")
-    difficulty = int(input("Please enter your level: "))
-    anime = ImageGuess("animedatabase.txt",difficulty)
-    anime.start()
+    print("Welcome to the guessing game")
+    print("Please choose your genre:")
+    print("Enter 'A' for anime guessing")
+    genre = str(input("Please choose your genre: "))
+    if genre == "A":
+        genrepass = User()
+        genrepass.animeprompt()
     
         
 @dataclass
@@ -87,5 +86,16 @@ class ImageGuess:
             print("You are wrong :( Go home and watch more anime")
             print("The answer is: " + str(correctanime))   
     
+class User:
+    def animeprompt(self):
+        print("You choose anime guessing game")
+        print("Please choose your difficulty:")
+        print("Enter '1' for easy, 100x100% of the original image")
+        print("Enter '2' for normal, 50x50% of the original image")
+        print("Enter '3' for hard, 33x33% of the original image")
+        difficulty = int(input("Please enter your level: "))
+        anime = ImageGuess("animedatabase.txt",difficulty)
+        anime.start()
+        
 if __name__ == '__main__':
     main()
