@@ -1,17 +1,23 @@
+import pygame
 import random
 import cv2
 from dataclasses import dataclass
 IMAGEDISPLAY = 5000
+SCREENWIDTH = 1980
+SCREENHEIGHT = 1080
 
 def main():
     print("Welcome to the guessing game")
     print("Please choose your genre:")
-    print("Enter 'A' for anime guessing")
-    genre = str(input("Please choose your genre: "))
+    print("Enter 'A' for Terminal Game")
+    print("Enter 'B' for Launcher Game")
+    genre = str(input("Please choose your window type: "))
     if genre == "A":
-        genrepass = User()
+        genrepass = UserStart()
         genrepass.animeprompt()
-    
+    if genre == "B":
+        genrepass = UserStart()
+        genrepass.monitorinit()
         
 @dataclass
 class ImageData:
@@ -36,7 +42,7 @@ class ImageGuess:
                     imageinfo.append(ImageData(name,location))
         return imageinfo
     
-    def start(self):
+    def imageshow(self):
         if self.dif == 1:
             bgdata = ImageGuess.openfile(self)
             length = len(bgdata)
@@ -46,6 +52,7 @@ class ImageGuess:
             cv2.imshow("Background",img)
             cv2.waitKey(IMAGEDISPLAY)
             cv2.destroyAllWindows()
+            return self,bgdata,bgdata[choosen-1].name
             ImageGuess.answer(self,bgdata,bgdata[choosen-1].name)
         else:
             bgdata = ImageGuess.openfile(self)
@@ -63,7 +70,7 @@ class ImageGuess:
             cv2.imshow("Background",croppedimage)
             cv2.waitKey(IMAGEDISPLAY)
             cv2.destroyAllWindows()
-            ImageGuess.answer(self,bgdata,bgdata[choosen-1].name)
+            return self,bgdata,bgdata[choosen-1].name
             
     def answer(self,database,correctanime):
         print("Here are your option")
@@ -84,8 +91,40 @@ class ImageGuess:
         else:
             print("You are wrong :( Go home and watch more anime")
             print("The answer is: " + str(correctanime))   
+
+       
     
-class User:
+
+class GameInit:
+    def __init__(self,bgdata):
+        self.bgdata = bgdata
+        
+    def run(self):
+        screen = pygame.display.set_mode((SCREENWIDTH,SCREENHEIGHT))
+        length = len(self.bgdata)
+        choosen = random.randint(0,length-1)
+        directory = self.bgdata[choosen-1].location
+        img = pygame.image.load(directory).convert()
+        screen.blit(img, (0, 0))
+        pygame.display.flip()
+        run = True
+        while run:
+
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    run = False 
+
+    pygame.quit()
+    def openingimage(self):
+        anime = ImageGuess("animedatabase.txt",str(0))
+        database = anime.openfile()
+        return database
+    
+    
+        
+
+    
+class UserStart:
     def animeprompt(self):
         print("You choose anime guessing game")
         print("Please choose your difficulty:")
@@ -94,7 +133,14 @@ class User:
         print("Enter '3' for hard, 33x33% of the original image")
         difficulty = int(input("Please enter your level: "))
         anime = ImageGuess("animedatabase.txt",difficulty)
-        anime.start()
+        self,bgdata,bgname= anime.imageshow()
+        anime.answer(bgdata,bgname)
+        
+    def monitorinit(self):
+        anime = ImageGuess("animedatabase.txt",str(0))
+        bgdata = anime.openfile()
+        gameopen = GameInit(bgdata)
+        gameopen.run()
         
 if __name__ == '__main__':
     main()
