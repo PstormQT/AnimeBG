@@ -5,6 +5,8 @@ from dataclasses import dataclass
 IMAGEDISPLAY = 5000
 SCREENWIDTH = 1980
 SCREENHEIGHT = 1080
+IMAGEHEIGHT = 400
+IMAGEWIDTH = 300
 
 def main():
     print("Welcome to the guessing game")
@@ -53,7 +55,6 @@ class ImageGuess:
             cv2.waitKey(IMAGEDISPLAY)
             cv2.destroyAllWindows()
             return self,bgdata,bgdata[choosen-1].name
-            ImageGuess.answer(self,bgdata,bgdata[choosen-1].name)
         else:
             bgdata = ImageGuess.openfile(self)
             length = len(bgdata)
@@ -105,7 +106,9 @@ class GameInit:
         choosen = random.randint(0,length-1)
         directory = self.bgdata[choosen-1].location
         img = pygame.image.load(directory).convert()
-        screen.blit(img, (0, 0))
+        
+        screen.blit(img,(SCREENWIDTH/2 - IMAGEWIDTH/2,
+                         SCREENHEIGHT/20))
         pygame.display.flip()
         run = True
         while run:
@@ -114,16 +117,6 @@ class GameInit:
                 if event.type == pygame.QUIT:
                     run = False 
 
-    pygame.quit()
-    def openingimage(self):
-        anime = ImageGuess("animedatabase.txt",str(0))
-        database = anime.openfile()
-        return database
-    
-    
-        
-
-    
 class UserStart:
     def animeprompt(self):
         print("You choose anime guessing game")
@@ -132,12 +125,12 @@ class UserStart:
         print("Enter '2' for normal, 50x50% of the original image")
         print("Enter '3' for hard, 33x33% of the original image")
         difficulty = int(input("Please enter your level: "))
-        anime = ImageGuess("animedatabase.txt",difficulty)
+        anime = ImageGuess("ppanimedatabase.txt",difficulty)
         self,bgdata,bgname= anime.imageshow()
         anime.answer(bgdata,bgname)
         
     def monitorinit(self):
-        anime = ImageGuess("animedatabase.txt",str(0))
+        anime = ImageGuess("ppanimedatabase.txt",str(-1))
         bgdata = anime.openfile()
         gameopen = GameInit(bgdata)
         gameopen.run()
