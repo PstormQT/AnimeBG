@@ -1,6 +1,7 @@
 import pygame
 import random
 import cv2
+import time
 from dataclasses import dataclass
 IMAGEDISPLAY = 5000
 SCREENWIDTH = 1980
@@ -97,8 +98,24 @@ class ImageGuess:
     
 
 class GameInit:
+    score = 0
+    
     def __init__(self,bgdata):
         self.bgdata = bgdata
+    
+    def pullingbg(self):
+        # background = pygame.
+        # return background
+        pass
+    
+    def homepage(self):
+        screen = pygame.display.set_mode((SCREENWIDTH,SCREENHEIGHT))
+        color = ("#8ea1f5")
+        pygame.draw.rect(screen,color,pygame.Rect(SCREENWIDTH/4,SCREENHEIGHT/4,SCREENWIDTH/2,SCREENHEIGHT))
+        pygame.display.flip()
+        
+        pygame.display.update()
+        
         
     def run(self):
         screen = pygame.display.set_mode((SCREENWIDTH,SCREENHEIGHT))
@@ -106,7 +123,7 @@ class GameInit:
         choosen = random.randint(0,length-1)
         directory = self.bgdata[choosen-1].location
         img = pygame.image.load(directory).convert()
-        
+        screen.fill("#4399a1")
         screen.blit(img,(SCREENWIDTH/2 - IMAGEWIDTH/2,
                          SCREENHEIGHT/20))
         pygame.display.flip()
@@ -116,6 +133,9 @@ class GameInit:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     run = False 
+        time.sleep(2000)
+        screen.fill("#000000")
+        
 
 class UserStart:
     def animeprompt(self):
