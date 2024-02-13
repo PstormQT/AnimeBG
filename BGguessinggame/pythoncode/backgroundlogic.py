@@ -94,8 +94,6 @@ class ImageGuess:
             print("You are wrong :( Go home and watch more anime")
             print("The answer is: " + str(correctanime))   
 
-       
-    
 
 class GameInit:
     score = 0
@@ -145,7 +143,7 @@ class UserStart:
         print("Enter '2' for normal, 50x50% of the original image")
         print("Enter '3' for hard, 33x33% of the original image")
         difficulty = int(input("Please enter your level: "))
-        anime = ImageGuess("ppanimedatabase.txt",difficulty)
+        anime = ImageGuess("animedatabase.txt",difficulty)
         self,bgdata,bgname= anime.imageshow()
         anime.answer(bgdata,bgname)
         
