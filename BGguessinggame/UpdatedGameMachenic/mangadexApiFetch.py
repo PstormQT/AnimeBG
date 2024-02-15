@@ -3,9 +3,9 @@ import requests, json
 class dataFetch:
     BASE_URL = "https://api.mangadex.org"
     MAX_FETCHING = 10
-    outfile = "MangadexTop1000.json"
+    outFileFull = "MangadexTop1000Full.json"
     offset = 0
-    dataReq = ["cover_art", "manga"]
+    dataReq = ["cover_art"]
     followCount = "desc"
     fetchParam = {
         "includes[]" : dataReq,
@@ -22,14 +22,21 @@ class dataFetch:
 
     
     def jsonDump(self):
-        openOutFile = open(self.outfile,"w")
+        openOutFile = open(self.outFileFull,"w")
         json.dump(self.mangadata, openOutFile,indent=6)
+        openOutFile.close()
         
+    def getReqData(self):
+        with open(self.outFileFull) as dataFile: 
+            data = json.loads(dataFile)
+            
+            
 
 def test():
     testcase = dataFetch()
     testcase.dataFetching()
     testcase.jsonDump()
+    testcase.getReqData()
         
 if __name__ == "__main__":
     test()
