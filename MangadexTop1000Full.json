@@ -1,0 +1,707 @@
+{
+      "0": {
+            "year": 2024,
+            "month": 5,
+            "fetchCount": 100
+      },
+      "1": {
+            "id": "32d76d19-8a05-4db0-9fc2-e0b0648fe9d0",
+            "title": "Solo Leveling",
+            "alt-title": "Only I Level up",
+            "author": "5671fb47-ebdd-450f-9d7d-347353a926ae",
+            "coverArt": "e90bdc47-c8b9-4df7-b2c0-17641b645ee1.jpg"
+      },
+      "2": {
+            "id": "77bee52c-d2d6-44ad-a33a-1734c1fe696a",
+            "title": "Kage no Jitsuryokusha ni Naritakute",
+            "alt-title": "The Eminence in Shadow",
+            "author": "a1746c35-50ed-4e6f-94c1-092b07440d59",
+            "coverArt": "c384dedc-0f09-46ed-ae68-c81eb5eacdf4.jpg"
+      },
+      "3": {
+            "id": "aa6c76f7-5f5f-46b6-a800-911145f81b9b",
+            "title": "Sono Bisque Doll wa Koi wo Suru",
+            "alt-title": "My Dress-Up Darling",
+            "author": "4bba09c3-40c4-4cd6-9089-c47f73d5e1eb",
+            "coverArt": "426242c4-b281-4f19-bb79-c4e15ab6bb24.jpg"
+      },
+      "4": {
+            "id": "e78a489b-6632-4d61-b00b-5206f5b8b22b",
+            "title": "Tensei Shitara Slime Datta Ken",
+            "alt-title": "That Time I Got Reincarnated as a Slime",
+            "author": "dbf8af05-7173-49f3-bf60-f4ea3f586486",
+            "coverArt": "d336814d-d7dc-4b46-a6cd-0c8710fd63c5.jpg"
+      },
+      "5": {
+            "id": "e1e38166-20e4-4468-9370-187f985c550e",
+            "title": "Mato Seihei no Slave",
+            "alt-title": "Slave of the Hell Soldiers",
+            "author": "2fb2f997-e449-4368-aff5-a78b8f04b2fd",
+            "coverArt": "168b5890-fff5-4fbb-81b9-7a24059e3f06.jpg"
+      },
+      "6": {
+            "id": "a96676e5-8ae2-425e-b549-7f15dd34a6d8",
+            "title": "Komi-san wa Komyushou Desu.",
+            "alt-title": "Komi Can't Communicate",
+            "author": "4218b1ee-cde4-44dc-84c7-d9a794a7e56d",
+            "coverArt": "ba47ca06-012c-4957-a4bd-5e1ff508ebae.jpg"
+      },
+      "7": {
+            "id": "b0b721ff-c388-4486-aa0f-c2b0bb321512",
+            "title": "Sousou no Frieren",
+            "alt-title": "Frieren: Beyond Journey's End",
+            "author": "b3136811-9761-4606-93cf-583a00dde5e9",
+            "coverArt": "f812f3d4-f1df-40ce-bd3c-dcc0fd0eb17b.jpg"
+      },
+      "8": {
+            "id": "bd6d0982-0091-4945-ad70-c028ed3c0917",
+            "title": "Mushoku Tensei ~Isekai Ittara Honki Dasu~",
+            "alt-title": "Jobless Reincarnation - I Will Go All Out When I'm Transported to Another World",
+            "author": "d7f4dd59-4ffc-44df-b938-173a6140ac55",
+            "coverArt": "2e097c9f-ddcc-4dfa-90c7-418d0b768476.jpg"
+      },
+      "9": {
+            "id": "d86cf65b-5f6c-437d-a0af-19a31f94ec55",
+            "title": "Ijiranaide, Nagatoro-san",
+            "alt-title": "Please Don't Bully Me, Nagatoro",
+            "author": "7e552c08-f7cf-4e0e-9723-409d749dd77c",
+            "coverArt": "9536e948-9e5c-4b22-8e35-e88174731984.jpg"
+      },
+      "10": {
+            "id": "d8a959f7-648e-4c8d-8f23-f1f3f8e129f3",
+            "title": "One-Punch Man",
+            "alt-title": "One Punch Man",
+            "author": "16b98239-6452-4859-b6df-fdb1c7f12b52",
+            "coverArt": "fd109385-623d-46fe-b908-aedc4528a35c.jpg"
+      },
+      "11": {
+            "id": "a77742b1-befd-49a4-bff5-1ad4e6b0ef7b",
+            "title": "Chainsaw Man",
+            "alt-title": "",
+            "author": "f85a5b93-3c87-4c61-9032-07ceacbb9e64",
+            "coverArt": "9a60773c-e882-45d7-909b-60a78af09003.jpg"
+      },
+      "12": {
+            "id": "801513ba-a712-498c-8f57-cae55b38cc92",
+            "title": "Berserk",
+            "alt-title": "Berserk",
+            "author": "5863578d-4e4f-4b57-b64d-1dd45a893cb0",
+            "coverArt": "22ff2622-e93c-420f-b477-7a86eec02a1d.jpg"
+      },
+      "13": {
+            "id": "28c77530-dfa1-4b05-8ec3-998960ba24d4",
+            "title": "Otomege Sekai wa Mob ni Kibishii Sekai desu",
+            "alt-title": "Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs",
+            "author": "41919cea-1bd4-4ad4-8ee6-98ce3d0c7387",
+            "coverArt": "b0a3e41c-f17f-4f3b-9208-e77f83878d43.png"
+      },
+      "14": {
+            "id": "eb2d1a45-d4e7-4e32-a171-b5b029c5b0cb",
+            "title": "Kumo Desu ga, Nani ka?",
+            "alt-title": "So I'm a Spider, So What?",
+            "author": "7be584f3-1c1a-48ce-9205-4e5c7edc3fad",
+            "coverArt": "054719a9-4b04-4870-976f-8ce5d2246c92.jpg"
+      },
+      "15": {
+            "id": "1389d660-b9b1-4c6a-81af-eab4dbf3f22b",
+            "title": "Isekai Meikyuu de Harem o",
+            "alt-title": "A Harem in the Fantasy World Dungeon",
+            "author": "4c143e6d-f3bd-4404-bb79-c2d952e3f5ac",
+            "coverArt": "e4a3e065-667a-48e1-bdb6-80d4883018fb.jpg"
+      },
+      "16": {
+            "id": "58bc83a0-1808-484e-88b9-17e167469e23",
+            "title": "Lv2 kara Cheat datta Moto Yuusha Kouho no Mattari Isekai Life",
+            "alt-title": "Chillin\u2019 in Another World with Level 2 Super Cheat Powers",
+            "author": "98a37e5d-1ffb-4a29-a4c2-87ff07e8a940",
+            "coverArt": "00ed749a-835b-4d06-b08a-c87a893bff0f.jpg"
+      },
+      "17": {
+            "id": "7643e9f6-8455-4a58-b7e8-bf6cd00f5251",
+            "title": "Tsuki ga Michibiku Isekai Douchuu",
+            "alt-title": "Moon-led Journey Across Another World",
+            "author": "1b983a4f-0bcc-4423-92f9-2ecc8b991ac2",
+            "coverArt": "2ba663bf-902b-4b7f-ac30-5948c8c07e2a.jpg"
+      },
+      "18": {
+            "id": "878634d2-ea39-4001-a4bf-31458020d16a",
+            "title": "Akuyaku Reijou Level 99: Watashi wa UraBoss desu ga Maou de wa Arimasen",
+            "alt-title": "Villainess Level 99 ~I May Be the Hidden Boss but I'm Not the Demon Lord~",
+            "author": "f91539f4-3764-44ce-916d-d5dbb73fd9cc",
+            "coverArt": "0a4bedde-52a2-469a-be80-fec8b7d24a06.jpg"
+      },
+      "19": {
+            "id": "bd38c075-8b12-450a-aeee-125e3ac5da4b",
+            "title": "Fukushuu wo Koinegau Saikyou Yuusha wa, Yami no Chikara de Senmetsu Musou Suru",
+            "alt-title": "The Strongest Brave Who Craves for Revenge, Extinguish with the Power of Darkness",
+            "author": "91d4384b-cfee-4243-87ad-e06404aaf092",
+            "coverArt": "5c8ee3a1-5954-4e46-904b-9ae14b69ba27.jpg"
+      },
+      "20": {
+            "id": "6670ee28-f26d-4b61-b49c-d71149cd5a6e",
+            "title": "Mieruko-chan",
+            "alt-title": "The Girl Who Sees \"Them\"",
+            "author": "8e3594bb-820e-4e72-a478-79c509889c7b",
+            "coverArt": "b881ba09-58fc-4b3c-888e-9258b0a4d800.jpg"
+      },
+      "21": {
+            "id": "55ace2fb-e157-4d76-9e72-67c6bd762a39",
+            "title": "Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba ii?",
+            "alt-title": "An Archdemon's Dilemma: How to Love Your Elf Bride",
+            "author": "710f12bb-f127-4daa-93ba-9b301ad7c4ed",
+            "coverArt": "708f7971-dc0d-45f1-9c32-f38209a3cfa4.jpg"
+      },
+      "22": {
+            "id": "737a846b-2e67-4d63-9f7e-f54b3beebac4",
+            "title": "Please Go Home, Akutsu-san!",
+            "alt-title": "",
+            "author": "314bf0c1-a950-43bc-8979-0091a9e222d1",
+            "coverArt": "14408e37-1d88-40c9-a545-a35f47481449.png"
+      },
+      "23": {
+            "id": "6b958848-c885-4735-9201-12ee77abcb3c",
+            "title": "SPY\u00d7FAMILY",
+            "alt-title": "",
+            "author": "832a0f92-2cf4-4131-ac38-9c5c69d3f388",
+            "coverArt": "53a05c31-1043-4f74-b1e4-8f1963f04466.jpg"
+      },
+      "24": {
+            "id": "a25e46ec-30f7-4db6-89df-cacbc1d9a900",
+            "title": "Horimiya",
+            "alt-title": "Hori-san and Miyamura-kun",
+            "author": "eb58f6da-4c13-47ef-a064-c7793db2ca57",
+            "coverArt": "a6838b90-fa2b-4228-9650-3adab0961747.jpg"
+      },
+      "25": {
+            "id": "248525ed-ad1c-4ddc-a834-5d6ce66a3ad2",
+            "title": "Arifureta Shokugyou de Sekai Saikyou",
+            "alt-title": "Arifureta: From Commonplace to World's Strongest",
+            "author": "47a05a93-8c4a-4616-a33c-c5183883a9b8",
+            "coverArt": "9bcee346-c58d-4569-8ff5-ce9ad164662e.jpg"
+      },
+      "26": {
+            "id": "d7037b2a-874a-4360-8a7b-07f2899152fd",
+            "title": "Mairimashita! Iruma-kun",
+            "alt-title": "Welcome to Demon School! Iruma-kun",
+            "author": "32a18c9c-4b1f-4485-a674-9657cf7d2b4d",
+            "coverArt": "727507d5-949c-4586-b976-1ec0997e5200.jpg"
+      },
+      "27": {
+            "id": "e18fe8c6-f6dc-4f05-8462-7b2083ff9a6c",
+            "title": "Kusuriya no Hitorigoto",
+            "alt-title": "The Apothecary Diaries",
+            "author": "4250d940-37ba-45df-a449-4b0fbed2da71",
+            "coverArt": "4ea7dc13-549c-40a6-9021-ac5c7acbec13.jpg"
+      },
+      "28": {
+            "id": "37f5cce0-8070-4ada-96e5-fa24b1bd4ff9",
+            "title": "Kaguya-sama: Love is War",
+            "alt-title": "Kaguya Wants to be Confessed to: The Geniuses' War of Hearts and Minds",
+            "author": "23141aa2-5074-4daf-882b-658b2c2e649b",
+            "coverArt": "6bfc8f2a-7510-4746-90d6-b97d01c20796.jpg"
+      },
+      "29": {
+            "id": "c52b2ce3-7f95-469c-96b0-479524fb7a1a",
+            "title": "Jujutsu Kaisen",
+            "alt-title": "Magic Martial Arts",
+            "author": "94be1d47-54d0-42c6-b42b-439605e3793f",
+            "coverArt": "a112e575-4f11-48b2-83d8-28057ceecc4c.jpg"
+      },
+      "30": {
+            "id": "37838287-3fe9-443d-9d22-eafc1089140e",
+            "title": "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru ~Level Up wa Jinsei wo Kaeta~",
+            "alt-title": "I Got a Cheat Ability in a Different World, and Became Extraordinary Even in the Real World.",
+            "author": "53436831-24da-4044-88b4-77f321de0728",
+            "coverArt": "a44bc03f-3495-43fc-8e04-e2733abdb770.jpg"
+      },
+      "31": {
+            "id": "631f996b-3541-470c-9f18-ed02a447c64f",
+            "title": "Kaifuku Jutsushi no Yarinaoshi",
+            "alt-title": "Redo of Healer",
+            "author": "244cb3a0-7040-4fd5-898c-47a36dcf94d5",
+            "coverArt": "dc935171-37c3-4a8d-9e99-5504cbfa8387.jpg"
+      },
+      "32": {
+            "id": "89daf9dc-075a-4aa5-873a-cc76bb287108",
+            "title": "Gokushufudou: The Way of the House Husband",
+            "alt-title": "The Way of the Househusband",
+            "author": "d22feb1a-7cd7-46e5-9cd6-d1516a0cb0ef",
+            "coverArt": "880b3904-d636-4b5c-a778-54627be8231c.jpg"
+      },
+      "33": {
+            "id": "3df1a9a3-a1be-47a3-9e90-9b3e55b1d0ac",
+            "title": "The Dangers in My Heart",
+            "alt-title": "",
+            "author": "98e23fcc-5d55-473d-abd4-b082ae41c8c1",
+            "coverArt": "43760422-c1d5-42f1-92d9-53a434fcf823.jpg"
+      },
+      "34": {
+            "id": "0f237a5f-07ad-4e43-bbd9-2a320694434d",
+            "title": "The Rising of the Shield Hero",
+            "alt-title": "",
+            "author": "3b3522ac-8af1-4112-96a0-eef3eb8edd7c",
+            "coverArt": "bc04df94-50a5-43d6-9ace-52c75002be35.jpg"
+      },
+      "35": {
+            "id": "77fd8118-61b0-4b1f-95a6-2b839d754f81",
+            "title": "Tensei Shitara Ken Deshita",
+            "alt-title": "Reincarnated as a Sword",
+            "author": "5225e0fa-05a4-469b-9f14-6ca24841cf1b",
+            "coverArt": "6ee3ec22-87b3-4d8c-b952-eb9f776ba5ac.jpg"
+      },
+      "36": {
+            "id": "85b51b37-0ce6-4144-a19b-6b064bc2c2ae",
+            "title": "Beware the Villainess!",
+            "alt-title": "",
+            "author": "95e60b07-5a29-4bbf-b855-256a93571853",
+            "coverArt": "13cf72b3-03cf-46f1-b30c-b08d33db8704.jpg"
+      },
+      "37": {
+            "id": "a1c7c817-4e59-43b7-9365-09675a149a6f",
+            "title": "One Piece",
+            "alt-title": "",
+            "author": "b6045e2c-28f4-4ce0-b4dd-b14070f2f5ae",
+            "coverArt": "636e708c-e853-4a60-a795-f9baf82e3b8e.jpg"
+      },
+      "38": {
+            "id": "6a468761-5bd6-4de0-a0cb-47cb456ac2e0",
+            "title": "A Returner's Magic Should Be Special",
+            "alt-title": "Magician who Reversing Time",
+            "author": "699ad622-e14c-4df8-82e1-58fab47c9e71",
+            "coverArt": "98162533-1838-4639-8419-2f19f8af651b.png"
+      },
+      "39": {
+            "id": "296cbc31-af1a-4b5b-a34b-fee2b4cad542",
+            "title": "\u3010Oshi no Ko\u3011",
+            "alt-title": "\u3010My Star\u3011",
+            "author": "23141aa2-5074-4daf-882b-658b2c2e649b",
+            "coverArt": "6a60b4c5-1c23-4106-8500-d9a478db9b0e.jpg"
+      },
+      "40": {
+            "id": "9a414441-bbad-43f1-a3a7-dc262ca790a3",
+            "title": "Omniscient Reader's Viewpoint",
+            "alt-title": "ORV",
+            "author": "385c7225-4a07-4f78-bb5e-8f79fb802bbd",
+            "coverArt": "aeb88211-faa2-4f9f-adee-a8e4d814d51a.jpg"
+      },
+      "41": {
+            "id": "e0a9e33b-6def-431b-87db-ae2b26a501a0",
+            "title": "Rettoujin no Maken Tsukai: Skill Board wo Kushi Shite Saikyou ni Itaru",
+            "alt-title": "The Reincarnated Inferior Magic Swordsman",
+            "author": "0a4a2939-19ec-4a10-9ad8-3429e1ab9bf2",
+            "coverArt": "e35eba0e-df31-4f76-a5b0-7c4757f2776a.jpg"
+      },
+      "42": {
+            "id": "39b4e02a-f2f2-4ff0-bf2c-f87cf54ab178",
+            "title": "Tensei Kizoku no Isekai Boukenroku ~Jichou wo Shiranai Kamigami no Shito~",
+            "alt-title": "Adventure Record of Reincarnated Aristocrat ~ The apostle of Gods Who Doesn\u2019t Know Self-Restraint~",
+            "author": "9e169c66-7309-41c4-aaa3-c1a1f0829b95",
+            "coverArt": "03624dbd-640c-4540-abc4-999d37c9995c.jpg"
+      },
+      "43": {
+            "id": "b49fd121-19bf-4344-a8e1-d1be7ca04e08",
+            "title": "Sekai Saikyou no Assassin, Isekai Kizoku ni Tensei Suru",
+            "alt-title": "The World's Finest Assassin Gets Reincarnated in Another World",
+            "author": "244cb3a0-7040-4fd5-898c-47a36dcf94d5",
+            "coverArt": "b14ef805-4d05-475a-9ef9-a44ce8aeaa46.jpg"
+      },
+      "44": {
+            "id": "259dfd8a-f06a-4825-8fa6-a2dcd7274230",
+            "title": "Yofukashi no Uta",
+            "alt-title": "Song of the Night Walkers",
+            "author": "7222d0d5-836c-4bf3-9174-72bceade8c87",
+            "coverArt": "4d451bbd-d184-493f-a2db-fc4712f38f76.jpg"
+      },
+      "45": {
+            "id": "b41bef1e-7df9-4255-bd82-ecf570fec566",
+            "title": "The New Gate",
+            "alt-title": "",
+            "author": "0e634111-62ea-4e00-b157-21a1fd2d88ec",
+            "coverArt": "12d5e5de-5a4a-4c49-a77b-674f60ed5f5b.jpg"
+      },
+      "46": {
+            "id": "d90ea6cb-7bc3-4d80-8af0-28557e6c4e17",
+            "title": "Dungeon Meshi",
+            "alt-title": "Dungeon Meal",
+            "author": "22470bea-8c6c-40ff-943c-d1da388a8eac",
+            "coverArt": "d885a28e-a5d3-4dc3-85e9-ca600f227b04.jpg"
+      },
+      "47": {
+            "id": "8352a9ca-22e0-4a1c-bf1f-89f23d95262a",
+            "title": "Tondemo Skill de Isekai Hourou Meshi",
+            "alt-title": "Campfire Cooking in Another World with My Absurd Skill",
+            "author": "a3ad76a7-615b-41ef-a74e-ed2e139dad01",
+            "coverArt": "314e58f4-1603-40fa-98e0-2ff2f306bc68.jpg"
+      },
+      "48": {
+            "id": "6e156d65-cf65-4d5b-9d04-52f2f8100fbf",
+            "title": "Isekai Mokushiroku Mynoghra: Hametsu no Bunmei de Hajimeru Sekai Seifuku",
+            "alt-title": "Isekai Apocalypse MYNOGHRA ~The Conquest of the World Starts With the Civilization of Ruin~",
+            "author": "718b55f1-c09b-4f60-a4f7-451d4d90800e",
+            "coverArt": "e0042b90-31d8-4e43-9dbf-246741ba679e.jpg"
+      },
+      "49": {
+            "id": "9d351a80-5037-4334-a020-6985899f5b1f",
+            "title": "Maou ni Natta node, Dungeon Tsukutte Jingai Musume to Honobono suru",
+            "alt-title": "I Became the Demon Lord so I Created a Dungeon and Spend Heartwarming Time There with Non-Human Girls",
+            "author": "465fa405-05e2-46bf-85c8-afb9a46aceb0",
+            "coverArt": "f679afd0-0adb-4f66-b90b-44a3c4ad45be.jpg"
+      },
+      "50": {
+            "id": "32fdfe9b-6e11-4a13-9e36-dcd8ea77b4e4",
+            "title": "Rent-A-Girlfriend",
+            "alt-title": "",
+            "author": "08ebed9d-57dd-40ac-990f-9fb77c7ac256",
+            "coverArt": "f6898b49-b4b3-46bb-9f73-881d328d8989.jpg"
+      },
+      "51": {
+            "id": "5a90308a-8b12-4a4d-9c6d-2487028fe319",
+            "title": "Uzaki-chan wa Asobitai!",
+            "alt-title": "Uzaki-chan Wants to Hang Out!",
+            "author": "bf1dd32e-94c7-43a0-ad91-af05d7897d5b",
+            "coverArt": "dcdd49df-9f98-4322-a7e1-50dea452c0eb.jpg"
+      },
+      "52": {
+            "id": "e0589f47-72f9-4e9a-ac31-5b88bcad6220",
+            "title": "Chiyu Mahou no Machigatta Tsukaikata: Senjou wo Kakeru Kaifuku Youin",
+            "alt-title": "The Wrong Way to Use Healing Magic",
+            "author": "73df458d-9c44-427f-b351-d3a2058eda5e",
+            "coverArt": "53a219ed-86b0-49b0-be38-bccfcd08c486.jpg"
+      },
+      "53": {
+            "id": "c466ced0-ec48-47c1-a8cf-d5ff1fe9d0d2",
+            "title": "Shokei Sareta Kenja wa Lich ni Tensei Shite Shinryaku Sensou wo Hajimaru",
+            "alt-title": "The Executed Sage Who Was Reincarnated as a Lich Started an All-Out War",
+            "author": "d2766651-b3c6-47be-9b23-db41fc160799",
+            "coverArt": "3e8a02ca-8313-4617-8b29-4f98c6b8023c.jpg"
+      },
+      "54": {
+            "id": "6e44705b-9f80-42f6-9ebb-1141fbe8320e",
+            "title": "Nozomanu Fushi no Boukensha",
+            "alt-title": "The Unwanted Undead Adventurer",
+            "author": "9bdd7eba-4edb-4038-8e22-aec4cd1990a8",
+            "coverArt": "ff7a3f6c-baa6-4567-8f8f-f3a7af66185e.jpg"
+      },
+      "55": {
+            "id": "cddd1849-ab36-4304-8103-06ba4062b5e6",
+            "title": "Kubo Won't Let Me Be Invisible",
+            "alt-title": "Kubo-san Does Not Allow Me",
+            "author": "43b21570-00ad-4427-8c76-3fd0ac01b6e7",
+            "coverArt": "1a6dd185-7542-41e0-b987-64366d6ee0fe.jpg"
+      },
+      "56": {
+            "id": "fef2e4da-36f9-48e9-8317-2516f4b6ab14",
+            "title": "Tensei Kizoku, Kantei Skill de Nariagaru ~Jakushou Ryouchi o Uketsuida node, Yuushuu na Jinzai o Fuyashiteitara, Saikyou Ryouchi ni Natteta~",
+            "alt-title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World: I Inherited a Weak Territory, and If I Increase the Number of Capable Personnel, It Will Become the Strongest Territory",
+            "author": "87ec5454-c7a7-4bc8-8ae9-a459a4c44148",
+            "coverArt": "63b35ba9-04c3-4b76-9fba-f4af86e5c06f.jpg"
+      },
+      "57": {
+            "id": "14569f2f-f66a-4c67-ac7f-a37823a0fa23",
+            "title": "Villains Are Destined to Die",
+            "alt-title": "Death Is the Only Ending for the Villainess",
+            "author": "6b81b8ba-03da-409f-ba18-12e3feb5e036",
+            "coverArt": "769c7d0a-d7cb-449d-8b54-aa1c138adb20.jpg"
+      },
+      "58": {
+            "id": "5e3a710f-0b0d-482b-9e84-d9c91960c625",
+            "title": "Yancha Gal no Anjou-san",
+            "alt-title": "The Mischievous Gal Anjou-san",
+            "author": "02812ab1-327c-443c-ac52-0e602e0cafe4",
+            "coverArt": "379e70e3-589d-44f3-8007-3e0723630169.jpg"
+      },
+      "59": {
+            "id": "0fa5dab2-250a-4f69-bd15-9ceea54176fa",
+            "title": "Assassin de Aru Ore no Sutetasu ga Yuusha Yori mo Akiraka ni Tsuyoi Nodaga",
+            "alt-title": "My Status as an Assassin Obviously Exceeds the Hero\u2019s",
+            "author": "68f11fc3-4c48-40b9-8ab2-d80bb7324195",
+            "coverArt": "c428b048-6dcc-4a01-bd7f-a7cf774fe10a.jpg"
+      },
+      "60": {
+            "id": "b5b21ca1-bba5-4b9a-8cd1-6248f731650b",
+            "title": "Record of Ragnarok",
+            "alt-title": "World's End Valkyrie",
+            "author": "3f336248-ea63-495f-ad25-6e248f477cc9",
+            "coverArt": "dfd2d1d9-7d36-481c-9bd3-ecfb3c3a2ca8.jpg"
+      },
+      "61": {
+            "id": "ffe69cc2-3f9e-4eab-a7f7-c963cea9ec25",
+            "title": "Hitoribocchi no Isekai Kouryaku",
+            "alt-title": "Loner Life in Another World",
+            "author": "0ca31669-f6f8-4c70-a1cb-a30bc9025a44",
+            "coverArt": "a1814984-0049-4cce-b899-4dcee10305e9.jpg"
+      },
+      "62": {
+            "id": "30196491-8fc2-4961-8886-a58f898b1b3e",
+            "title": "Boushoku no Berserk: Ore Dake Level to Iu Gainen o Toppa Suru",
+            "alt-title": "Berserk of Gluttony",
+            "author": "6e5e2e5e-a19c-4eaf-8f2b-de2593a2a060",
+            "coverArt": "88b844bc-214b-43d4-842f-82d099d1ccad.jpg"
+      },
+      "63": {
+            "id": "10e98722-874d-48b2-a715-90bb8af93598",
+            "title": "Yondome wa Iya na Shizokusei Majutsushi",
+            "alt-title": "Death Attribute Magician",
+            "author": "3f3c9112-5b0f-4691-aea9-147cc03d407e",
+            "coverArt": "942ac6f5-fef0-4eb4-9d22-4ab8b799ea7a.jpg"
+      },
+      "64": {
+            "id": "1f40b922-6abb-418e-a7e9-cc4d25b21439",
+            "title": "Saihate no Paladin",
+            "alt-title": "The Faraway Paladin",
+            "author": "1cdfba87-8147-4367-a33a-57ef49f1d45d",
+            "coverArt": "ec16ea31-66b4-45df-a7ed-5c589b933938.jpg"
+      },
+      "65": {
+            "id": "0aea9f43-d4a9-4bf7-bebc-550a512f9b95",
+            "title": "Shikimori's Not Just a Cutie",
+            "alt-title": "A Girl Who's Not Just Cute",
+            "author": "91a8e694-4f98-49b4-b94f-1b9a2fb346d9",
+            "coverArt": "8b52cafe-6d4e-436c-b50f-1eee44f4e760.jpg"
+      },
+      "66": {
+            "id": "f81026af-1b41-465c-932b-291ce4760c00",
+            "title": "Tensei Kenja no Isekai Life ~Daini no Shokugyou wo Ete, Sekai Saikyou ni Narimashita~",
+            "alt-title": "My Isekai Life: I Gained a Second Character Class and Became the Strongest Sage in the World!",
+            "author": "5d4373e6-3eb1-465e-87c1-58a9b700662b",
+            "coverArt": "ebd9f68c-04d9-4d67-accf-b229d7f39eb9.jpg"
+      },
+      "67": {
+            "id": "9484b1fd-0271-4c9b-b096-7e313823058e",
+            "title": "Jitsu wa Ore, Saikyou Deshita?",
+            "alt-title": "Am I Actually the Strongest?",
+            "author": "75241800-1619-4cbb-ab83-8182b0106f31",
+            "coverArt": "1137b3a8-407c-4a99-9d3c-6bcd7030656d.jpg"
+      },
+      "68": {
+            "id": "fc6bbfc4-08f3-432d-914b-7fec244c001e",
+            "title": "Shin no Nakama janai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni shimashita",
+            "alt-title": "Banished from the Hero's Party, I Decided to Live a Quiet Life in the Countryside",
+            "author": "66111fde-a316-4085-8de6-103d21109b2e",
+            "coverArt": "4c3bb1d8-9c02-4468-a67f-98e25d6e0498.jpg"
+      },
+      "69": {
+            "id": "dc332d04-d3b0-413c-a767-70f5e451b031",
+            "title": "Kuro no Shoukanshi",
+            "alt-title": "The Black Summoner",
+            "author": "329324a7-7961-4c3a-853c-4094d5f2c9d9",
+            "coverArt": "1d18535a-55ee-439a-a4b5-c92c819e0328.jpg"
+      },
+      "70": {
+            "id": "304ceac3-8cdb-4fe7-acf7-2b6ff7a60613",
+            "title": "Attack on Titan",
+            "alt-title": "The Invading Giants",
+            "author": "31e059c9-6040-4765-b7bd-40a16d657a94",
+            "coverArt": "12158456-0511-468b-be37-8d2aa3772723.png"
+      },
+      "71": {
+            "id": "4754fc66-6bcb-4cc3-98ec-10f585cc55f3",
+            "title": "Moto-Sekai Ichii Sub-chara Ikusei Nikki ~Hi-Player, Isekai wo Kouryaku-chu!~",
+            "alt-title": "The Former Top 1's Sub-Character Training Diary: A Dedicated Player is Currently Conquering Another World!",
+            "author": "08907896-2719-4b95-a02f-fee0d47f9b96",
+            "coverArt": "3c02abea-5ee0-4d55-a4e9-2c8cd72badc5.jpg"
+      },
+      "72": {
+            "id": "18f3e34b-2bad-4e35-8ea6-a0cbae52f76b",
+            "title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
+            "alt-title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
+            "author": "9f84a805-4434-413c-a2b3-4c4171706cdf",
+            "coverArt": "2e91f2cf-c0b9-4f5c-853b-c814de54d80b.jpg"
+      },
+      "73": {
+            "id": "eb5a4a48-61c3-4f0a-a2c3-1c284b4752ce",
+            "title": "Rettou Gan no Tensei Majutsushi ~ Shiitagerareta Moto Yuusha wa Mirai no Sekai o Yoyuu de Ikinuku ~",
+            "alt-title": "The Reincarnation Magician of the Inferior Eyes",
+            "author": "d5d53b2c-ad3a-4346-88fa-e7ce3db8bc49",
+            "coverArt": "abadb3bf-3041-448e-b6ae-dfbf20cda635.jpg"
+      },
+      "74": {
+            "id": "b4c93297-b32f-4f90-b619-55456a38b0aa",
+            "title": "Fuufu Ijou, Koibito Miman.",
+            "alt-title": "More Than A Married Couple, But Not Lovers.",
+            "author": "8dc6fd08-d237-47ac-babf-aba740aacbf0",
+            "coverArt": "a7204790-177f-4fc0-a010-9192eecf6ba9.jpg"
+      },
+      "75": {
+            "id": "4f3bcae4-2d96-4c9d-932c-90181d9c873e",
+            "title": "My Hero Academia",
+            "alt-title": "MHA",
+            "author": "02795b9a-2128-403c-b03e-e25dc3e3b0a2",
+            "coverArt": "17773464-61da-4885-8084-50f9d2489fbd.jpg"
+      },
+      "76": {
+            "id": "9e107c4a-ad46-4fcf-9ca1-98f21c6ec2a3",
+            "title": "Yuusha ni Zenbu Ubawareta Ore wa Yuusha no Hahaoya to Party wo Kumimashita!",
+            "alt-title": "The Hero Took Everything from Me, So I Partied with the Hero\u2019s Mother!",
+            "author": "e42315f6-c60d-490e-95eb-d9b3338a128c",
+            "coverArt": "fb02ef14-baec-496e-94f7-03e785a399f2.jpg"
+      },
+      "77": {
+            "id": "30f3ac69-21b6-45ad-a110-d011b7aaadaa",
+            "title": "Tonikaku Kawaii",
+            "alt-title": "Fly Me to The Moon",
+            "author": "255f84b7-9176-49ca-b005-92c478440b2e",
+            "coverArt": "0dddf687-95ec-4e88-acd7-cd90a4c9749a.jpg"
+      },
+      "78": {
+            "id": "c6bbbeca-f4fd-4595-9d4d-4ba31370d08c",
+            "title": "Otome Game no Hametsu Flag shika nai Akuyaku Reijou ni Tensei shite shimatta...",
+            "alt-title": "My Next Life as a Villainess: All Routes Lead to Doom!",
+            "author": "9720c72f-45ce-462c-b734-7ea66e8e353e",
+            "coverArt": "f4c7c695-eacc-4363-b400-4027c2e9f812.jpg"
+      },
+      "79": {
+            "id": "1f5a94b3-08f9-4b58-8354-db5cf22043d6",
+            "title": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu",
+            "alt-title": "Skeleton Knight in Another World",
+            "author": "e02737f0-a27e-42cd-bbd4-24371db44999",
+            "coverArt": "8c28be81-1129-4a82-b61e-2f5baeef01ac.jpg"
+      },
+      "80": {
+            "id": "6f83b8fb-ca25-47c5-9d16-759dacff0a6b",
+            "title": "Netorare Manga no Kuzu Otoko ni Tensei Shita Hazu ga Heroine ga Yottekuru Ken",
+            "alt-title": "I Was Reincarnated As The Scumbag From a Netorare Manga, But The Heroine is Coming On To Me",
+            "author": "3603f1c8-2b3c-44cc-a630-3ece53a5e533",
+            "coverArt": "48d7922f-c6fd-4261-837c-5627253a0673.jpg"
+      },
+      "81": {
+            "id": "d8323b7b-9a7a-462b-90f0-2759fed52511",
+            "title": "Dosanko Gal wa Namaramenkoi",
+            "alt-title": "Hokkaido Gals are Super Adorable!",
+            "author": "b77fe548-6f64-4380-8cca-faee8891a7d3",
+            "coverArt": "a1b563fa-04f9-4a08-b3ef-41c74c7e09ef.jpg"
+      },
+      "82": {
+            "id": "4187856d-65a9-4fb4-98ec-84c0bf16631f",
+            "title": "By the Grace of the Gods",
+            "alt-title": "The Man Picked Up by the Gods",
+            "author": "2b471254-fc62-451c-90a8-fc4d737697a5",
+            "coverArt": "90fdfb68-36d3-421d-a847-dafb025f2b76.jpg"
+      },
+      "83": {
+            "id": "80c4c4bc-be9c-400a-8cc0-57b1d0b8a87f",
+            "title": "I Shaved. Then I Brought a High School Girl Home.",
+            "alt-title": "Higehiro: After Being Rejected, I Shaved and Took in a High School Runaway",
+            "author": "ca1fe8f0-9d4a-480a-a3df-77b151af11d4",
+            "coverArt": "bfe53938-4377-4e93-81b1-45b52e6e3300.jpg"
+      },
+      "84": {
+            "id": "0b171f64-89a5-4c37-b5f9-75cca57e8787",
+            "title": "Hazure Waku no Joutai Ijou Skill de Saikyou ni Natta Ore ga Subete wo Juurin Suru made",
+            "alt-title": "Failure Frame: I Became the Strongest and Annihilated Everything With Low-Level Spells",
+            "author": "fbeb49a6-fa4d-44da-8f4d-a8d35ef04d5e",
+            "coverArt": "8fef6473-8b55-4cd1-a3ea-2db6cf53674b.jpg"
+      },
+      "85": {
+            "id": "efb4278c-a761-406b-9d69-19603c5e4c8b",
+            "title": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+            "alt-title": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+            "author": "60d04d03-fc3e-4f14-8c32-588a88be48a3",
+            "coverArt": "24658bf8-a38b-4d86-8f86-b264756a3c62.jpg"
+      },
+      "86": {
+            "id": "d6e9b748-9187-4f93-a5df-b802c567f60c",
+            "title": "Realist Maou Niyoru Seiiki Naki Isekai Kaikaku",
+            "alt-title": "The Legendary Rebuilding of a World by a Realist Demon King",
+            "author": "0d4687c7-09d0-402d-8d56-625b481973a0",
+            "coverArt": "fafa8224-26b7-441e-a0fd-23421185a332.jpg"
+      },
+      "87": {
+            "id": "de9e3b62-eac5-4c0a-917d-ffccad694381",
+            "title": "Sometimes Even Reality Is a Lie!",
+            "alt-title": "Hanging Out with a Gamer Girl",
+            "author": "0181adcd-83bc-4e0f-9fd0-e2b0caa4685c",
+            "coverArt": "9e1fdcf5-6c82-409c-a04b-0b3169cdea54.jpg"
+      },
+      "88": {
+            "id": "66f42f5f-bcb7-437b-9ae5-752c84bce709",
+            "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natte Ita.",
+            "alt-title": "I Became a Legend After My 10 Year-Long Last Stand",
+            "author": "36fc5dc5-3d01-41d9-b3f3-acb87576a6ba",
+            "coverArt": "17f33db8-1d13-4a1b-af70-2ac731caa3ff.jpg"
+      },
+      "89": {
+            "id": "feff4eaf-01df-4a05-83f4-68bb5cdf4fad",
+            "title": "Gushing over Magical Girls",
+            "alt-title": "Looking up to Magical Girls",
+            "author": "576570d9-01cc-4a29-a6e1-d9f0c0c5b647",
+            "coverArt": "4c9b2a41-bd5d-47d9-9e84-84d185d464f0.jpg"
+      },
+      "90": {
+            "id": "5d1fc77e-706a-4fc5-bea8-486c9be0145d",
+            "title": "Vinland Saga",
+            "alt-title": "",
+            "author": "f5d4fca1-d573-4383-af08-c06b0794ba4e",
+            "coverArt": "536c6d49-2253-465b-be08-9e9232db6642.jpg"
+      },
+      "91": {
+            "id": "69dcebee-7446-4eb2-8244-d903f12a6712",
+            "title": "The Isekai Returnee is Too OP for the Modern World",
+            "alt-title": "The Hero Who Returned Remains the Strongest in the Modern World",
+            "author": "9f84a805-4434-413c-a2b3-4c4171706cdf",
+            "coverArt": "3b04467e-7330-4544-bb67-b9c7d576af54.jpg"
+      },
+      "92": {
+            "id": "789642f8-ca89-4e4e-8f7b-eee4d17ea08b",
+            "title": "Kimetsu no Yaiba",
+            "alt-title": "Demon Slayer",
+            "author": "f0efa2ab-6e78-4f21-ad30-bbf2cf38972d",
+            "coverArt": "60530e72-f76f-45d5-b6f9-f95e05058fc3.png"
+      },
+      "93": {
+            "id": "eb1e9858-5d3c-4c3e-a394-12c5b4d0b55f",
+            "title": "Re:Monster",
+            "alt-title": "",
+            "author": "f7480af7-0db7-4ed6-a168-c7fa41cd7dc3",
+            "coverArt": "0aeacaa8-a3d4-45b8-af54-f9fbb3b9871b.jpg"
+      },
+      "94": {
+            "id": "da88b8f1-0b6f-4e69-a07f-ec1c624b2aa7",
+            "title": "Reincarnation Coliseum",
+            "alt-title": "Reincarnation Coliseum ~Using The Weakest Skill To Defeat The Strongest Women And Create A Slave Harem~",
+            "author": "06535a1b-b834-4607-b4cf-6fce614fa418",
+            "coverArt": "8a42306e-47c1-4dca-a740-9b713f8d1ab5.jpg"
+      },
+      "95": {
+            "id": "73bc69fa-9ba9-4533-a243-ebc11651339f",
+            "title": "The Villainess Turns the Hourglass",
+            "alt-title": "The Villainess Reverses the Hourglass",
+            "author": "a7cf4424-bf88-4b38-85e8-33a7053eddca",
+            "coverArt": "5bd5b399-bfae-492b-a322-a4085b8cafd2.jpg"
+      },
+      "96": {
+            "id": "96471a2c-59f3-4a08-be7d-640bc0c022a4",
+            "title": "Saigo ni Hitotsu Dake Onegai Shite mo Yoroshii Deshou ka",
+            "alt-title": "May I Ask for One Final Thing?",
+            "author": "cdce5336-045c-4b00-b714-b71c2b610968",
+            "coverArt": "1415937d-0391-4a90-8189-51abe70efa44.jpg"
+      },
+      "97": {
+            "id": "af38f328-8df1-4b4c-a272-e737625c3ddc",
+            "title": "Senpai ga Uzai Kouhai no Hanashi",
+            "alt-title": "A Story About a Senior Who Annoys His Junior",
+            "author": "465b6513-a230-4ce1-b2a9-5027e94e52cc",
+            "coverArt": "57004e6b-3573-414d-b234-afd512d89c63.jpg"
+      },
+      "98": {
+            "id": "83067b19-bdfb-4ba1-8178-7052e68b41bf",
+            "title": "Goshujin-sama to Yuku Isekai Survival!",
+            "alt-title": "Survival in Another World with My Mistress!",
+            "author": "f418bfc1-b220-4229-b2ee-f1d9df02cdad",
+            "coverArt": "a0c395a7-8a1b-4ad7-911b-d847b13a890d.jpg"
+      },
+      "99": {
+            "id": "50fc2f0f-aeac-4152-82ba-164b3bb3b5b3",
+            "title": "The Monster Duchess and Contract Princess",
+            "alt-title": "The Monster Duchess and the Contract Princess",
+            "author": "00a72217-3aef-4fc8-b6db-2677c4d0e825",
+            "coverArt": "decbdd34-6f18-42aa-bb3b-d443ac7bb14d.jpg"
+      },
+      "100": {
+            "id": "fa197a3e-6dd6-470d-91e4-c0130a1392d3",
+            "title": "Tensei Shitara Dragon no Tamago Datta ~Ibara no Dragon Road~",
+            "alt-title": "Reincarnated as a Dragon Hatchling",
+            "author": "20df9d1f-d708-40e0-bc8e-befa35410b3c",
+            "coverArt": "dd8118c1-a9ea-4f85-b9d4-bfa6ee0a2f37.jpg"
+      }
+}
