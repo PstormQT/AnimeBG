@@ -1,7 +1,7 @@
 import requests, json, datetime
 
 BASE_URL = "https://api.mangadex.org"
-MAX_FETCHING = 100
+MAX_FETCHING = 20
 outFileFull = "MangadexTop1000Full.json"
 offset = 0
 dataReq = ["cover_art"]
