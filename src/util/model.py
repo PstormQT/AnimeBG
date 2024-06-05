@@ -55,6 +55,9 @@ class Level:
         return self.data
         
     def generateNewLevel(self):
+        """
+        Making new level and append it to the mend of the list
+        """
         self.checkFetching()
         correctAnswer = random.randint(1,self.top)
         answerLocation = random.randint(1,4)
@@ -71,11 +74,17 @@ class Level:
         answerOption.append(answerLocation)
         
     def getLevel(self,level):
+        """
+        Get the specified level
+
+        Args:
+            level (int): The level needed to get
+
+        Returns:
+            List: Level information
+        """
         return self.levelList[level]
     
-    def checkAnswer(self, input):
-        return input == self.answerOption
-            
         
     def testRun(self):
         """
