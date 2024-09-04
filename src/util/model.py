@@ -1,4 +1,4 @@
-import json, datetime, fetching, random
+import json, datetime, pygame.assets.classesAndUtil.fetching as fetching, random
 
 class Level:
     source = "MangadexTop1000Full.json"

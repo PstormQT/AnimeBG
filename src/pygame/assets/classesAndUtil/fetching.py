@@ -1,7 +1,7 @@
 import requests, json, datetime
 
 BASE_URL = "https://api.mangadex.org"
-MAX_FETCHING = 20
+MAX_FETCHING = 1000
 outFileFull = "MangadexTop1000Full.json"
 offset = 0
 dataReq = ["cover_art"]
@@ -65,7 +65,6 @@ def dumpingToFile():
     json.dump(dataDumps, openOutFile,indent=6)
     
 
-
 def getAuthor(id):
     """
     Util function for author look up
@@ -79,10 +78,6 @@ def getAuthor(id):
     authorLinkLoopup = BASE_URL + "/author/" + id
     authorData = requests.get(authorLinkLoopup).json()
     return authorData
-
-def getCover(mangaID, coverID):
-    return requests.get("https://uploads.mangadex.org/covers/"
-                        + mangaID + "/" + coverID)
 
 def parser():
     """

@@ -3,6 +3,11 @@ from io import BytesIO
 import requests
 from PIL import Image
 import random
+import datetime
+import fetching
+import json
+
+source = "MangadexTop1000Full.json"
 
 def opeingPhoto(mangaID, mangaLink):
     """_summary_
@@ -28,6 +33,18 @@ def pinkRandomOmit(start, stop, emit):
         _type_: _description_
     """
     while True:
-        random = random.randint(start,stop)
+        randomNumber = random.randint(start,stop)
         if (random not in emit):
-            return random 
+            return randomNumber 
+        
+        
+def checkFetching():
+        """Fetching the json file recheck if needed"""
+        reading = open(source, "r")
+        data = json.load(reading)
+        
+        current = datetime.datetime.now()
+        if data.get("0").get("year") != current.year or data.get("0").get("month") != current.month:
+            fetching.dumpingToFile()
+            reading = open(source, "r")
+            data = json.load(reading)

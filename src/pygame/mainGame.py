@@ -1,4 +1,7 @@
-import pygame, gameUtil
+import pygame 
+import pygame.assets.classesAndUtil.gameUtil as gameUtil
+import pygame.assets.classesAndUtil.gameUtil as Button
+
 
 BGColor = (28,92,76)
 
@@ -9,6 +12,7 @@ def mainGame():
     mainWindow = pygame.display.set_mode((1000,800),pygame.RESIZABLE)
     mainWindow.fill(BGColor)
     
+    #opening the json data
     
     roundCounter = 1
     
@@ -22,7 +26,7 @@ def mainGame():
         
         
         
-def singleRound(roundCounter, mainWindow):
+def singleRound(roundCounter: int, mainWindow: pygame.display):
     """
     The implementation for a single round
 
@@ -41,6 +45,8 @@ def singleRound(roundCounter, mainWindow):
             if event.type == pygame.QUIT:
                 runCheck = False
                 return -1
+
+        choosenID = gameUtil.random()
         
         
         
