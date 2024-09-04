@@ -1,8 +1,8 @@
 import pygame 
 import sys
-sys.path.insert(0,"src\pygame\assets\classesAndUtil")
-import pygame.assets.classesAndUtil.gameUtil as gameUtil
-import pygame.assets.classesAndUtil.gameUtil as Button
+sys.path.insert(0,"src\main\assets\classesAndUtil")
+import assets.classesAndUtil.gameUtil as gameUtil
+import assets.classesAndUtil.gameUtil as Button
 
 
 BGColor = (28,92,76)
