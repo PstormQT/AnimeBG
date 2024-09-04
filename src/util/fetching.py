@@ -80,6 +80,10 @@ def getAuthor(id):
     authorData = requests.get(authorLinkLoopup).json()
     return authorData
 
+def getCover(mangaID, coverID):
+    return requests.get("https://uploads.mangadex.org/covers/"
+                        + mangaID + "/" + coverID)
+
 def parser():
     """
     Parsing data from mangadex
