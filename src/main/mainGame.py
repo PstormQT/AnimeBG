@@ -1,18 +1,17 @@
 import pygame 
-import sys
-sys.path.insert(0,"src\main\assets\classesAndUtil")
 import assets.classesAndUtil.gameUtil as gameUtil
-import assets.classesAndUtil.gameUtil as Button
+import assets.classesAndUtil.buttonClass as ButtonTem
+import assets.classesAndUtil.fetching as fetching
 
 
 BGColor = (28,92,76)
-mainImage = "src\pygame\assets\image\AnswerButton.png"
+mainImage = "src\\pygame\\assets\\image\\AnswerButton.png"
 
 completed_round = set()
 
 def mainGame():
     pygame.init()
-    mainWindow = pygame.display.set_mode((1000,800),pygame.RESIZABLE)
+    mainWindow = pygame.display.set_mode((1970,1070),pygame.RESIZABLE)
     mainWindow.fill(BGColor)
     
     #opening the json data
@@ -49,8 +48,9 @@ def singleRound(roundCounter: int, mainWindow: pygame.display):
                 runCheck = False
                 return -1
 
-        choosenID = gameUtil.random()
-        Answer1 = Button(990,540,"testing","#000000",mainWindow,mainImage,1)
+        choosenID = gameUtil.pickRandomOmit(0,1,(1,2))
+        Answer1 = ButtonTem(990,540,"testing","#000000",mainWindow,mainImage,1)
+        Answer1.draw()
         if Answer1 == True:
             print("Yatta")
         

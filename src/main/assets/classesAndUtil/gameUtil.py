@@ -4,8 +4,8 @@ import requests
 from PIL import Image
 import random
 import datetime
-import fetching
 import json
+import assets.classesAndUtil.fetching as fetching
 
 source = "MangadexTop1000Full.json"
 
@@ -21,7 +21,7 @@ def opeingPhoto(mangaID, mangaLink):
     pgimg = pygame.image.fromstring(pilimage.tobytes(), pilimage.size, pilimage.mode)
     return pgimg
 
-def pinkRandomOmit(start, stop, emit):
+def pickRandomOmit(start, stop, emit):
     """Pick a random number in a range without certain item in a list
 
     Args:
