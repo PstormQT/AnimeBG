@@ -11,7 +11,7 @@ completed_round = set()
 
 def mainGame():
     pygame.init()
-    mainWindow = pygame.display.set_mode((1930,1030),pygame.RESIZABLE)
+    mainWindow = pygame.display.set_mode((1000,800),pygame.RESIZABLE)
     mainWindow.fill(BGColor)
     pygame.display.update()
     #opening the json data
@@ -39,22 +39,34 @@ def singleRound(roundCounter: int, mainWindow: pygame.display):
     """
     w, h = pygame.display.get_surface().get_size()
     
+    
+    
     runCheck = True
     while runCheck:
+        
+        #Refill BG
+        mainWindow.fill(BGColor)
+        
+        
+        main
+        #Creating button
+        Answer1 = ButtonTem.Button(500,500,"testing","#ffffff",mainWindow,mainImage,1)
+        if Answer1.draw() == True:
+            print("Yatta")
+        
+        
+        #event handler
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 runCheck = False
                 
-
-        choosenID = gameUtil.pickRandomOmit(0,1,(1,2))
         
-        try:
-            Answer1 = ButtonTem.Button(500,500,"testing","#ffffff",mainWindow,mainImage,1)
-            Answer1.draw()
-            if Answer1 == True:
-                print("Yatta")
-        except:
-            pass
+        #updating the window
+        pygame.display.update()
+
+        # choosenID = gameUtil.pickRandomOmit(0,1,(1,2))
+        
+        
         
 
 

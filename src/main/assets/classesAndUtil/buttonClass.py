@@ -28,11 +28,11 @@ class Button():
         self.color = color
         self.text = text
         self.display = display
-        
+        self.clicked = False
         
     def draw(self):
         self.display.blit(self.img,(self.rect.x, self.rect.y))
-        
+        action = False
         pos = pygame.mouse.get_pos()
         if self.rect.collidepoint(pos):
             if pygame.mouse.get_pressed()[0] == 1 and self.clicked == False:
@@ -46,9 +46,8 @@ class Button():
         
         self.write()
         self.display.blit(self.text,self.text_rect)
-        pygame.display.update()
         # return action
-    
+        return action
     
     def write(self):
         font = pygame.font.SysFont("Comic Sans MS", 30)
