@@ -5,25 +5,23 @@ import assets.classesAndUtil.fetching as fetching
 
 
 BGColor = (28,92,76)
-mainImage = "src\\pygame\\assets\\image\\AnswerButton.png"
+mainImage = "assets\\image\\AnswerButton.jpg"
 
 completed_round = set()
 
 def mainGame():
     pygame.init()
-    mainWindow = pygame.display.set_mode((1970,1070),pygame.RESIZABLE)
+    mainWindow = pygame.display.set_mode((1930,1030),pygame.RESIZABLE)
     mainWindow.fill(BGColor)
-    
+    pygame.display.update()
     #opening the json data
     
     roundCounter = 1
     
     runCheck = True
-    while runCheck:
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                runCheck = False
-        singleRound(1,mainWindow)
+    singleRound(1,mainWindow)
+        
+        
         
 
         
@@ -46,14 +44,17 @@ def singleRound(roundCounter: int, mainWindow: pygame.display):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 runCheck = False
-                return -1
+                
 
         choosenID = gameUtil.pickRandomOmit(0,1,(1,2))
-        Answer1 = ButtonTem(990,540,"testing","#000000",mainWindow,mainImage,1)
-        Answer1.draw()
-        if Answer1 == True:
-            print("Yatta")
         
+        try:
+            Answer1 = ButtonTem.Button(500,500,"testing","#ffffff",mainWindow,mainImage,1)
+            Answer1.draw()
+            if Answer1 == True:
+                print("Yatta")
+        except:
+            pass
         
 
 

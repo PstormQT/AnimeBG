@@ -1,5 +1,7 @@
 import pygame 
 
+BGColor = (28,92,76)
+
 class Button():
     def __init__(self,x: int,y: int,text: int, color:str, display: pygame.display, img: str, scale: int) -> None:
         """
@@ -14,42 +16,42 @@ class Button():
             display (pygame.display): Pygame display to be drawned on
             img (str): the img being draw
         """
+        
+        img = pygame.image.load(img).convert_alpha()
+        self.width = img.get_width()
+        self.height = img.get_height()
         self.x = x
         self.y = y
-        self.text = text
+        self.img = pygame.transform.scale(img, (int(self.width*scale), int(self.height*scale)))
+        self.rect = self.img.get_rect()
+        self.rect.topleft = (x,y)
         self.color = color
+        self.text = text
         self.display = display
-        self.clicked = False
-        self.text_rect = None
-        if img != None:
-            self.width = img.get_width()
-            self.height = img.get_height()
-            self.img = pygame.transform.scale(img, (int(self.width)*scale, int(self.height)*scale))           
-    
+        
         
     def draw(self):
-        action = False
-        #get mouse position
-        pos = pygame.mouse.get_pos()
+        self.display.blit(self.img,(self.rect.x, self.rect.y))
         
-        #check mouseover and clicked conditions
+        pos = pygame.mouse.get_pos()
         if self.rect.collidepoint(pos):
             if pygame.mouse.get_pressed()[0] == 1 and self.clicked == False:
                 self.clicked = True
                 action = True
+                
 
         if pygame.mouse.get_pressed()[0] == 0:
             self.clicked = False
+            
         
-        
-        self.display.blit(self.img,self.x, self.y)
         self.write()
         self.display.blit(self.text,self.text_rect)
-        return action
+        pygame.display.update()
+        # return action
     
     
     def write(self):
-        font = pygame.font.SysFont("Comic Sans MS", 14)
+        font = pygame.font.SysFont("Comic Sans MS", 30)
         self.text = font.render(self.text, 1, pygame.Color(self.color))
         self.text_rect = self.text.get_rect(center=((self.x+self.width//2),(self.y+self.height//2) ))
         
