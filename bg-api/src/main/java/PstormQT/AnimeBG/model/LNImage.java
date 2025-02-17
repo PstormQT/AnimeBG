@@ -4,19 +4,19 @@ import java.util.logging.Logger;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class LightNovelImage extends Image {
+public class LNImage extends Image {
     private static final Logger LOG = Logger.getLogger(Image.class.getName());
 
-    static final String TO_STRING_FORMAT = "Item [id = %d, source = %s, author = %s, path = %s, volume = %d, artCount = %d, color = %b]";
+    static final String TO_STRING_FORMAT = "Item [id = %d, source = %s, author = %s, path = %s, volume = %f, artCount = %d, color = %b]";
 
-    @JsonProperty("volume") private int volume;
+    @JsonProperty("volume") private Float volume;
     @JsonProperty("artCount") private int artCount;
     @JsonProperty("color") private boolean color;
 
-    public LightNovelImage(@JsonProperty("id") int id,
+    public LNImage(@JsonProperty("id") int id,
                         @JsonProperty("source") String source,
                         @JsonProperty("author") String author,
-                        @JsonProperty("volume") int volume,
+                        @JsonProperty("volume") Float volume,
                         @JsonProperty("path") String path,
                         @JsonProperty("artCount") int artCount,
                         @JsonProperty("color") boolean color){
@@ -26,12 +26,12 @@ public class LightNovelImage extends Image {
         this.color = color;
     }
 
-    public int getVolume(){
+    public Float getVolume(){
         return this.volume;
     }
 
-    public void setVolume(int volume){
-        this.source = source;
+    public void setVolume(Float volume){
+        this.volume = volume;
     }
 
     public int getArtCount(){
@@ -53,12 +53,12 @@ public class LightNovelImage extends Image {
     @Override
     public String toString(){
         return String.format(TO_STRING_FORMAT,
-        super.id,
-        super.source,
-        super.author,
-        super.path,
+        super.getID(),
+        super.getSource(),
+        super.getAuthor(),
+        super.getPath(),
         this.volume,
         this.artCount,
-        this.color)
+        this.color);
     }
 }
