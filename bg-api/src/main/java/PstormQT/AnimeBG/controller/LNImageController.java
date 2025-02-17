@@ -74,7 +74,7 @@ public class LNImageController  {
     public ResponseEntity<LNImage[]> getNameLN(@RequestParam String query) {
         LOG.info("GET /image/light-novel/search/name>query=" + query);
         try{
-            LNImage[] LNs = this.LNLibrary.getNameLN();
+            LNImage[] LNs = this.LNLibrary.getNameLN(query);
             return new ResponseEntity<LNImage[]>(LNs, HttpStatus.OK);
         }
         catch (IOException e){
@@ -87,7 +87,7 @@ public class LNImageController  {
     public ResponseEntity<LNImage[]> getAuthorLN(@RequestParam String query) {
         LOG.info("GET /image/light-novel/search/name>query=" + query);
         try{
-            LNImage[] LNs = this.LNLibrary.getAuthorLN();
+            LNImage[] LNs = this.LNLibrary.getAuthorLN(query);
             return new ResponseEntity<LNImage[]>(LNs, HttpStatus.OK);
         }
         catch (IOException e){
@@ -135,7 +135,7 @@ public class LNImageController  {
     public ResponseEntity<LNImage> putSource(@PathVariable int id, @RequestBody String source) {
         LOG.info("PUT /image/light-novel/update/source/" + id);
         try{
-            LNImage check = this.LNLibrary.updateSource(source);
+            LNImage check = this.LNLibrary.updateSource(source, id);
             if (check == null){
                 return new ResponseEntity<>(HttpStatus.NOT_FOUND);
             } else{
@@ -152,7 +152,7 @@ public class LNImageController  {
     public ResponseEntity<LNImage> putVolume(@PathVariable int id, @RequestBody Float volume) {
         LOG.info("PUT /image/light-novel/update/volume/" + id);
         try{
-            LNImage check = this.LNLibrary.updateVolume(volume);
+            LNImage check = this.LNLibrary.updateVolume(volume, id);
             if (check == null){
                 return new ResponseEntity<>(HttpStatus.NOT_FOUND);
             } else{
@@ -169,7 +169,7 @@ public class LNImageController  {
     public ResponseEntity<LNImage> putAuthor(@PathVariable int id, @RequestBody String author) {
         LOG.info("PUT /image/light-novel/update/author/" + id);
         try{
-            LNImage check = this.LNLibrary.updateAuthor(author);
+            LNImage check = this.LNLibrary.updateAuthor(author,id);
             if (check == null){
                 return new ResponseEntity<>(HttpStatus.NOT_FOUND);
             } else{
@@ -186,7 +186,7 @@ public class LNImageController  {
     public ResponseEntity<LNImage> putArtCount(@PathVariable int id, @RequestBody int artCount) {
         LOG.info("PUT /image/light-novel/update/artCount/" + id);
         try{
-            LNImage check = this.LNLibrary.updateArtCount(artCount);
+            LNImage check = this.LNLibrary.updateArtCount(artCount,id);
             if (check == null){
                 return new ResponseEntity<>(HttpStatus.NOT_FOUND);
             } else{
@@ -203,7 +203,7 @@ public class LNImageController  {
     public ResponseEntity<LNImage> putArtCount(@PathVariable int id, @RequestBody boolean color) {
         LOG.info("PUT /image/light-novel/update/color/" + id);
         try{
-            LNImage check = this.LNLibrary.updateColor(color);
+            LNImage check = this.LNLibrary.updateColor(color,id);
             if (check == null){
                 return new ResponseEntity<>(HttpStatus.NOT_FOUND);
             } else{
