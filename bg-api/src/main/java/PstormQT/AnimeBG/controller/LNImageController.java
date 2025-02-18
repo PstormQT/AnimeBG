@@ -182,7 +182,7 @@ public class LNImageController  {
         }
     }
 
-    @PutMapping("/update/author/{id}")
+    @PutMapping("/update/art-count/{id}")
     public ResponseEntity<LNImage> putArtCount(@PathVariable int id, @RequestBody int artCount) {
         LOG.info("PUT /image/light-novel/update/artCount/" + id);
         try{
@@ -199,8 +199,8 @@ public class LNImageController  {
         }
     }
 
-    @PutMapping("/update/author/{id}")
-    public ResponseEntity<LNImage> putArtCount(@PathVariable int id, @RequestBody boolean color) {
+    @PutMapping("/update/color/{id}")
+    public ResponseEntity<LNImage> putColor(@PathVariable int id, @RequestBody boolean color) {
         LOG.info("PUT /image/light-novel/update/color/" + id);
         try{
             LNImage check = this.LNLibrary.updateColor(color,id);
